@@ -1,6 +1,6 @@
 @font-face {
     font-family: kiro;
-    src: url("/kiro.otf") format("opentype");
+    src: url("Kiro.otf") format("opentype");
 }
 
 .tab-content {
