@@ -1,0 +1,12 @@
+@font-face {
+    font-family: kiro;
+    src: url("kiro.otf") format("opentype");
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.is-active {
+    display: block;
+}
