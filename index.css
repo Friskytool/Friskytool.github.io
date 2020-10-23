@@ -10,3 +10,7 @@
 .tab-content.is-active {
     display: block;
 }
+
+.title {
+    font-family: kiro, sans-serif;
+}

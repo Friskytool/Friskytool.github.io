@@ -6,6 +6,10 @@
     <title>Friskytool</title>
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css" integrity="sha512-ZRv40llEogRmoWgZwnsqke3HNzJ0kiI0+pcMgiz2bxO6Ew1DVBtWjVn0qjrXdT3+u+pSN36gLgmJiiQ3cQtyzA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
 </head>
 <body>
     
@@ -15,10 +19,11 @@
             <nav class="container p-3">
                 <div class="level is-mobile">
                     <div class="level-left">
-                        <div class="level-item title" style="font-family: kiro">Friskytool</div>
+                        <div class="level-item title">Friskytool</div>
                     </div>
                     <div class="level-right">
                         <div class="level-item"><a href="https://discord.com/oauth2/authorize?client_id=700743797977514004&scope=bot&permissions=1611000937" class="link is-info">Invite</a></div>
+                        <div class="level-item"><a href="https://docs.friskytool.xyz/" class="link is-info">Documentation</a></div>
                     </div>
                 </div>
         
@@ -28,7 +33,7 @@
             <div class="container">
                 <div class="columns is-vcentered">
                     <div class="column">
-                        <h1 class="title is-size-1" style="font-family: kiro">Giveaways reimagined</h1>
+                        <h1 class="title is-size-1">Giveaways reimagined</h1>
                         <p class="subtitle">The only discord giveaway bot you'll ever need</p>
                         <a href="https://discord.com/oauth2/authorize?client_id=700743797977514004&scope=bot&permissions=1611000937"><button class="button is-primary">Invite</button></a><a href="#features" class="ml-2"><button class="button is-info">Features</button></a>
                     </div>
@@ -40,15 +45,8 @@
                 </div>  
             </div>
         </div> 
-
-        <div class="hero-footer">
-            <div class="container has-text-centered pb-3">
-                
-            </div>
-            
-        </div>
     </section>
-
+    
     <section class="hero is-fullheight" id="features">
         <div class="hero-body">
             <div class="container">
@@ -59,7 +57,7 @@
                         </figure>
                     </div>
                     <div class="column">
-                        <h1 class="title is-size-1" style="font-family: kiro">Features</h1>
+                        <h1 class="title is-size-1">Features</h1>
                         <div class="card subtitle">
                             <div class="card-header tabs is-centered mb-0">
                                 <ul>
@@ -73,20 +71,20 @@
                               <div class="card-content">
                                 <section class="tab-content is-active" id="gaws">
                                     <h1 class="title is-size-4">Effortless Giveaways</h1>
-                                    <p class="subtitle">Friskytool is, at it's core, a giveaway bot, and it excels at that. You can create giveaways that last up to a year and with as many winners as you want, and you have full control over everything. You can end the giveaway early, cancel the giveaway, or do anything you really want!</p>
+                                    <p class="subtitle is-size-6">Friskytool is, at it's core, a giveaway bot, and it excels at that. You can create giveaways that last up to a year and with as many winners as you want, and you have full control over everything. You can end the giveaway early, cancel the giveaway, or do anything you really want!</p>
                                     <a href="https://docs.friskytool.xyz/commands/giveaway-commands"><button class="button is-primary">Learn More</button></a>
                                 </section>
                                 <section class="tab-content" id="reqs">
                                     <h1 class="title is-size-4">Versatile Requirements</h1>
-                                    <p class="subtitle">To add on to it's giveaway functionality, Friskytool has a slew of requirements to aid with your giveaway needs. You can require a user to have a certain level with Amari, Mee6, and many other leveling bots, require them to have invited a certain amount of people, require certain message amounts, and many more!</p>
+                                    <p class="subtitle is-size-6">To add on to it's giveaway functionality, Friskytool has a slew of requirements to aid with your giveaway needs. You can require a user to have a certain level with Amari, Mee6, and many other leveling bots, require them to have invited a certain amount of people, require certain message amounts, and many more!</p>
                                     <a href="https://docs.friskytool.xyz/important-information/requirements"><button class="button is-primary">Learn More</button></a></section>
                                 <section class="tab-content" id="ic">
                                     <h1 class="title is-size-4">Easy Invite Counting</h1>
-                                    <p class="subtitle">Ever wanted to know how many people someone has invited into your server? Well with Friskytool you can! Simple invitation counting comes bundled with friskytool</p>
+                                    <p class="subtitle is-size-6">Ever wanted to know how many people someone has invited into your server? Well with Friskytool you can! Simple invitation counting comes bundled with friskytool</p>
                                     <a href="https://docs.friskytool.xyz/important-information/requirements"><button class="button is-primary">Learn More</button></a></section>
                                 <section class="tab-content" id="gs">
                                     <h1 class="title is-size-4">Great and Active Support Team</h1>
-                                    <p class="subtitle">Any issues? Join our support server for 24/7 support with great service! We can solve your problem quickly and effectively.</p>
+                                    <p class="subtitle is-size-6">Any issues? Join our support server for 24/7 support with great service! We can solve your problem quickly and effectively.</p>
                                     <a href="https://discord.gg/TMu242J"><button class="button is-primary">Join now!</button></a></section>
                               </div>
                         </div> 
@@ -119,6 +117,12 @@
                     behavior: 'smooth'
                 });
             });
+        });
+
+        bulmaCarousel.attach('#slider', {
+            slidesToScroll: 1,
+            slidesToShow: 3,
+            infinite: true,
         });
     </script>
 </body>
